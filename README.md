@@ -2,6 +2,9 @@
 
 This repository contains a simple countdown timer application implemented in Python using the Tkinter library. The application allows users to set a specific duration and start the countdown timer, displaying the remaining time in a graphical user interface.
 
+![image](https://github.com/Alok-2002/CountDown_Timer/assets/93814546/1c7ea441-3502-45d3-9bf7-19da7ea8457c)
+
+
 ## Features
 
 - Set a custom countdown duration.
