@@ -1,4 +1,4 @@
-# Countdown Timer
+# TimerZen 
 
 This repository contains a simple countdown timer application implemented in Python using the Tkinter library. The application allows users to set a specific duration and start the countdown timer, displaying the remaining time in a graphical user interface.
 
