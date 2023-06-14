@@ -1,84 +1,117 @@
-# TimerZen 
+# TimerZen
 
-This repository contains a simple countdown timer application implemented in Python using the Tkinter library. The application allows users to set a specific duration and start the countdown timer, displaying the remaining time in a graphical user interface.
+TimerZen is a simple countdown timer application created using Python and tkinter. It allows users to set a specific time duration and counts down to zero, providing a visual and audible notification when the time is up.
 
-![image](https://github.com/Alok-2002/CountDown_Timer/assets/93814546/1c7ea441-3502-45d3-9bf7-19da7ea8457c)
+![Screenshot 2023-06-14 161048](https://github.com/Alok-2002/TimerZen/assets/93814546/bf51e2eb-7e65-4e9c-b1ea-d1a19539cbb0)
 
 
 ## Features
 
-- Set a custom countdown duration.
-- Start, pause, and reset the countdown timer.
-- Display the remaining time in hours, minutes, and seconds.
-- Visual progress bar indicating the elapsed time.
-
-## Prerequisites
-
-To run the Countdown Timer application, ensure you have the following dependencies installed:
-
-- Python 3: The programming language used for development.
-- Tkinter: The standard Python interface to the Tk GUI toolkit.
+- Set a custom time duration for the countdown timer.
+- Visual representation of the countdown with a progress bar.
+- Audible notification when the timer reaches zero.
+- Option to pause, resume, and reset the timer.
 
 ## Installation
 
-1. Clone this repository to your local machine or download the source code as a ZIP file.
+To use TimerZen, you have two options:
 
-```shell
-git clone https://github.com/your-username/countdown-timer.git
-```
+### Option 1: Running the Executable File
 
-2. Navigate to the project directory.
+1. Clone the TimerZen repository to your local machine using the following command:
 
-```shell
-cd countdown-timer
-```
+   ```
+   git clone https://github.com/alok-2002/TimerZen.git
+   ```
 
-3. (Optional) Set up a virtual environment to isolate the project's dependencies.
+2. Navigate to the cloned directory:
 
-```shell
-python3 -m venv venv
-source venv/bin/activate
-```
+   ```
+   cd TimerZen
+   ```
 
-4. Install the required dependencies.
+3. Locate the `TimerZen.exe` file in the repository.
 
-```shell
-pip install -r requirements.txt
-```
+4. Double-click on `TimerZen.exe` to run the application.
+
+### Option 2: Running the Python Script
+
+1. Ensure you have Python 3.x installed on your system.
+
+2. Clone the TimerZen repository to your local machine using the following command:
+
+   ```
+   git clone https://github.com/alok-2002/TimerZen.git
+   ```
+
+3. Navigate to the cloned directory:
+
+   ```
+   cd TimerZen
+   ```
+
+4. Install the required dependencies by running the following command:
+
+   ```
+   pip install -r requirements.txt
+   ```
+
+5. Run the TimerZen application by executing the following command:
+
+   ```
+   python TimerZen.py
+   ```
 
 ## Usage
 
-1. Run the application.
+1. Launch the TimerZen application.
 
-```shell
-python countdown_timer.py
-```
-
-2. Set the countdown duration by entering the desired time in the hours, minutes, and seconds fields.
+2. Enter the desired time duration in hours, minutes, and seconds.
 
 3. Click the "Start" button to begin the countdown.
 
-4. Use the "Pause" button to pause the countdown temporarily, and the "Reset" button to start a new countdown.
+4. The progress bar will visually represent the countdown progress.
 
-5. The remaining time will be displayed in the graphical user interface, along with a progress bar indicating the elapsed time.
+5. When the timer reaches zero, an audible notification will be played.
 
-6. Close the application window to exit the countdown timer.
+6. To pause the timer, click the "Pause" button. Clicking "Resume" will continue the countdown from where it left off.
+
+7. To reset the timer, click the "Reset" button. This will stop the countdown and allow you to set a new duration.
 
 ## Contributing
 
-Contributions to this project are welcome. If you encounter any issues or have ideas for improvements, please feel free to open an issue or submit a pull request.
+Contributions to TimerZen are welcome! If you would like to contribute, please follow these steps:
+
+1. Fork the TimerZen repository.
+
+2. Create a new branch for your feature or bug fix.
+
+3. Make your changes and ensure they are working correctly.
+
+4. Commit your changes with descriptive commit messages.
+
+5. Push your changes to your forked repository.
+
+6. Submit a pull request to the main TimerZen repository.
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE). Feel free to use and modify the code for your own purposes.
+This project is licensed under the [MIT License](LICENSE).
 
-## Acknowledgments
+## Acknowledgements
 
-- The Tkinter library developers for providing a powerful GUI framework for Python.
-- The open-source community for their valuable contributions and support.
+TimerZen was created by [Alok Sharma](https://github.com/alok-2002). It is inspired by the need for a simple and visually appealing countdown timer application.
+
+Special thanks to the contributors who have helped improve and maintain TimerZen.
 
 ## Contact
 
-If you have any questions or suggestions regarding this project, please contact [your-name](mailto:your-email@example.com).
+If you have any questions, suggestions, or feedback regarding TimerZen, please feel free to reach out to us.
 
-Enjoy your countdown timer!
+- Email: [sharmaalok02gwl@gmail.com](mailto:sharmaalok02gwl@gmail.com)
+- GitHub Issues: [TimerZen Issues](https://github.com/alok-2002/TimerZen/issues)
+
+We appreciate your support and involvement in making TimerZen better.
+Please feel free to provide any feedback or suggestions by opening an issue in the TimerZen repository. Thank you for using TimerZen!
+
+
